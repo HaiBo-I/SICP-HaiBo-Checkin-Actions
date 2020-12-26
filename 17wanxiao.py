@@ -99,8 +99,8 @@ def receive_check_in(token, custom_id, post_dict):
         "emergencyContactName": post_dict['emergencyContactName'],
         "helpInfo": "",
         "passingCity": "",
-        "longitude": "",
-        "latitude": "",
+        "longitude": "121.459877",
+        "latitude": "30.93626",
         "token": token,
     }
     headers = {
